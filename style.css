@@ -7,21 +7,16 @@
     display: flex;
 }
 .container{
-    width: 1240px;
-    margin:auto;   
-}
-.wrapper{
-    width: 90%;
-    margin:auto;
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+     
 }
 .header{
     justify-content: space-between;
     margin-top:25px;
 }
 
-nav{
-    z-index: 1;
-}
 .nav-item{
     justify-content:space-between;
     
@@ -58,9 +53,12 @@ nav{
 }
 .bg-pattan{
     position: absolute;
-    top:-120px;
-    right:-200px;
-    z-index: 0;
+    top:-145px;
+    right:-0px;
+    z-index: -1;
+}
+.bg-pattan img{
+    height: 600px;
 }
 .row{
     align-items: center;
@@ -72,15 +70,13 @@ nav{
 .col-left{
     font-size: 16px;
 }
-.col-right{
-    z-index: 1;
-}
+
 .hero-heding{
     font-size: 60px;
     margin-bottom: 25px;
     line-height: 1.2;
 }
-.hero-pragrape{
+.hero-p{
     font-size: 25px;
     margin-bottom: 20px;
     color: hsl(233, 12%, 13%);
@@ -125,8 +121,11 @@ nav{
 
 .card-pattan{
     position: absolute;
-    left: -35%;
+    left: -30%;
     top: 120%;
     z-index: -1;
 
+}
+.card-pattan img{
+    height: 600px;
 }
