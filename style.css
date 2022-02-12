@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    width: 1240px;
+    margin:auto;   
+}
+.wrapper{
+    width: 90%;
+    margin:auto;
+}
+.header{
+    justify-content: space-between;
+    margin-top:25px;
+}
+
+nav{
+    z-index: 1;
+}
+.nav-item{
+    justify-content:space-between;
+    
+}
+.nav-item li{
+    list-style: none;
+    padding: 0px 15px;
+}
+.nav-item li a{
+    text-decoration: none;
+    color:black;
+    
+}
+.nav-item li a:hover{
+    color:rgb(128, 128, 128);
+}
+.btn{
+    padding: 10px 20px;
+    color:white;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    z-index: 1;
+
+}
+.btn:hover{
+    
+    background-color: hsl(12, 95%, 74%);
+}
+
+/* Hero section  */
+.hero{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.bg-pattan{
+    position: absolute;
+    top:-120px;
+    right:-200px;
+    z-index: 0;
+}
+.row{
+    align-items: center;
+
+}
+.col-left, .col-right{
+    width: 50%;
+}
+.col-left{
+    font-size: 16px;
+}
+.col-right{
+    z-index: 1;
+}
+.hero-heding{
+    font-size: 60px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+.hero-pragrape{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: hsl(233, 12%, 13%);
+}
+/* feture  */
+.card{
+    
+}
+.card-left h2{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.card-left p{
+    width: 65%;
+    color: rgb(122, 121, 121);
+}
+.card-left, .card-right{
+    width: 50%;
+}
+.card-right{
+    margin-bottom: 30px;
+}
+.card-item{
+    margin-bottom: 20px;
+}
+.card-number{
+    width: 16%;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: hsl(12, 88%, 59%);
+}
+.card-containt{
+    margin-left: 15px;
+}
+.card-containt h3{
+    margin-bottom: 10px;
+}
+.card-containt p{
+    width: 70%;
+}
+
+.card-pattan{
+    position: absolute;
+    left: -35%;
+    top: 120%;
+    z-index: -1;
+
+}
