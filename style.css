@@ -38,7 +38,7 @@
     color:white;
     background-color: hsl(12, 88%, 59%);
     border-radius: 20px;
-    z-index: 1;
+    border: none;
 
 }
 .btn:hover{
@@ -83,7 +83,7 @@
 }
 /* feture  */
 .card{
-    
+    margin-bottom: 50px;
 }
 .card-left h2{
     width: 45%;
@@ -102,12 +102,11 @@
 .card-item{
     margin-bottom: 20px;
 }
-.card-number{
-    width: 16%;
-    height: 20px;
-    border-radius: 10px;
-    text-align: center;
+
+.number{
+    padding: 6px 10px;
     background-color: hsl(12, 88%, 59%);
+    border-radius: 15px;
 }
 .card-containt{
     margin-left: 15px;
@@ -128,4 +127,49 @@
 }
 .card-pattan img{
     height: 600px;
+}
+/* profile */
+.profile-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.profile{
+    justify-content: space-between;
+    text-align: center;
+    position:relative;
+
+}
+.pic {
+    margin: 10px;
+    background-color: rgb(173, 173, 173);
+    padding: 40px;
+}
+
+.pic img{
+    position: absolute;
+    top: 0;
+    height: 65px;
+    transform: translate(-50%, -50%);
+
+    
+}
+.button{
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+.pic h4{
+    margin: 20px 0px;
+}
+/* tem-work */
+
+.tem-work{
+    width: 100%;
+    background-color: hsl(12, 88%, 59%);
+    justify-content: space-between;
+    
 }
